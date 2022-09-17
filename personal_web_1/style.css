@@ -172,27 +172,20 @@ ul li a:hover {
 
 }
 
-/* .laptop{
-
-width: 1px;
-height: 1px;
-margin-left: 400px;
-
-} */
 
 
 .bttn_work{
 
     background: rgb(174, 219, 10);
     border: 2px solid rgb(174, 219, 10);
-    margin-top: 350px;
-    margin-left: 150px;
+    margin-top: 400px;
+    margin-left: 200px;
     display: flex;
     height: 50px;
     padding: 0;
     border: none;
     outline: none;
-    border-radius: 5px;
+    border-radius: 20px;
     overflow: hidden;
     font-family:'Lucida Sans Unicode';
     font-size: 16px;
