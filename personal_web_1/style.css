@@ -1,0 +1,254 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.bac {
+
+    background-size: 100%, 50%, 50%;
+    background-image: url('https://c1.wallpaperflare.com/preview/407/724/61/business-technology-notebook-laptop.jpg');
+    background-repeat: no-repeat;
+}
+
+.navbar {
+
+    width: 1366px;
+    height: 60px;    
+    background-color: rgb(174, 219, 10);
+}
+
+.ico {
+    float: left;
+}
+
+
+span {
+    
+    font-family:'STahoma';
+    font-size: 50px;
+
+    color: rgb(14, 115, 133);
+}
+
+.logo {
+    margin-top: 10px;
+    margin-left: 20px;
+    padding: auto;
+    font-family:'Lucida Sans Unicode';
+    font-size: 30px;
+    color: rgb(44, 193, 204);
+    float: left;
+
+}
+
+.menu {
+    margin-top: 0;
+
+    height: 70px;
+    width: 400px;
+    float: left;
+
+}
+
+ul {
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li {
+
+    list-style-type:none;
+    margin-top: 30px;
+    margin-left: 120px;
+    font-size: 14px;
+}
+
+ul li a {
+
+    font-size: 20px;
+    font-family: serif;
+    font-weight: bold;
+    color: rgb(16, 158, 214);
+    text-decoration: none;
+    transition: 0.4s, ease-in-out;
+
+}
+
+ul li a:hover {
+
+    color: rgb(161, 163, 13);
+
+    font-size: 23px;
+}
+
+
+
+
+.search {
+    width: 330px;
+    float: left;
+    margin-left: 930px;
+    margin-top: -63px;
+
+}
+
+.srch {
+    font-family: 'Lucida Sans Unicode';
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid rgb(44, 193, 204);
+    margin-top: 13px;
+    color: #fff;
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+
+}
+
+.btn {
+
+    width: 100px;
+    height: 40px;
+    background: rgb(44, 193, 204);
+    border: 2px solid rgb(44, 193, 204);
+    margin-top: 13px;
+    color: #fff;
+    font-size: 15px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.btn:focus {
+    outline: none;
+}
+
+.srch:focus {
+    outline: none;
+}
+.intro-text{
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    text-align:right;
+    width: 320px;
+    max-width: 100%;
+    float: left;
+
+  
+}
+.intro-text h1 {
+    font-size: 50px;
+    margin: 0;
+    font-weight: bold;
+    color:rgb(174, 219, 10);
+    text-align: left;
+}
+.intro-text h1 span{
+    font-size: 70px;
+    font-weight: bold;
+    color: rgb(44, 193, 204);
+    text-shadow: 1px 3px 3px rgb(255, 255, 255);
+}
+.intro-text h4{
+    font-size: 30px;
+    margin: 0;
+    font-weight: bold;
+    color:rgb(174, 219, 10);
+    text-align: left;
+}
+.intro-text p {
+    font-size: 19px;
+    color: #f6f6f6;
+    line-height: 1.6;
+    text-align: left;
+
+}
+
+/* .laptop{
+
+width: 1px;
+height: 1px;
+margin-left: 400px;
+
+} */
+
+
+.bttn_work{
+
+    background: rgb(174, 219, 10);
+    border: 2px solid rgb(174, 219, 10);
+    margin-top: 350px;
+    margin-left: 150px;
+    display: flex;
+    height: 50px;
+    padding: 0;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    overflow: hidden;
+    font-family: "Quicksand", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+}
+      
+.bttn_work:hover {
+    background: rgb(174, 219, 10);
+}
+      
+.bttn_work:active {
+    background: #006e58;
+}
+      
+.button__text,
+.button__icon {
+        display:flex ;
+        align-items: center;
+        padding: 0 24px;
+        color: #fff;
+        height: 100%;
+        
+}
+      
+.button__icon {
+    padding: 0 24px;
+
+    font-size: 1.5em;
+    background: rgb(174, 219, 10);
+}
+.features{
+    padding-top: var(--section-padding);
+    padding-bottom: var(--section-padding);
+    background-color: var(--section-background);
+  }
+  .features .container{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px,1fr));
+    grid-gap: 20px;
+  }
+  .features .feat{
+    padding: 20px ;
+    text-align: center;
+  }
+  .features .feat i{
+    color: var(--main-color);
+  }
+  .features .feat h3{
+    font-weight: 800;
+    margin: 30px 0;
+  }
+  .features .feat p {
+    line-height: 1.8;
+    color: #777;
+    font-size: 17px;
+  }
+  /* end feature */
+  /* Start services */
